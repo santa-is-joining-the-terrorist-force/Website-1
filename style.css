@@ -1,0 +1,154 @@
+body 
+{
+background-image: linear-gradient( black ,rgba(145, 145, 145, 0.74) , white);  
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat; 
+ 
+}
+
+/* header code */
+.bannerimage
+{
+  
+   display: block;
+   margin: auto;
+   max-width: 100%;
+   padding-top: 100px;
+  
+   
+ }
+
+nav {
+  padding-top: .9cm;
+  padding-bottom: .9cm;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%; 
+   background-image: radial-gradient(rgb(0, 0, 0), rgba(145, 145, 145, 0.74));
+
+border-radius: 15px; 
+
+
+}
+
+.Rifle
+{
+
+  display: inline;
+  padding-right: 12mm;
+  max-width: 100%;
+  max-height:100%;
+  color: whitesmoke; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: bold; 
+  padding-left:12mm;
+  font-size: 18px; 
+  text-align: center; 
+  white-space: nowrap;
+ 
+}
+.Rifle:hover
+{
+  color:rgb(255, 255, 255);
+border: 3px solid whitesmoke;
+border-radius: 5px;
+  font-size: 22px;   
+  
+}
+
+.Pistols {
+  display: inline;
+  padding-right: 12mm;
+  max-width: 100%;
+  max-height:100%;
+    color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+  text-decoration: bold; 
+ 
+  padding-left:12mm;
+   font-size: 18px; 
+   white-space: nowrap;
+
+
+}
+.Pistols:hover
+{
+  color:rgb(255, 255, 255);
+  border: 3px solid whitesmoke;
+border-radius: 5px;
+  font-size: 22px; 
+}
+.SMG
+{
+  display: inline;
+  padding-right: 12mm;
+  max-width: 100%;
+max-height:100%;
+  color: whitesmoke; 
+font-family: Arial, Helvetica, sans-serif;
+  text-decoration: bold; 
+  white-space: nowrap;
+ 
+ padding-left:12mm;
+  font-size: 18px; 
+}
+.SMG:hover
+{
+  color:rgb(255, 255, 255);
+ border: 3px solid whitesmoke;
+border-radius: 5px;
+  font-size: 22px; 
+}
+.Other 
+{
+  display: inline;
+  padding-right: 12mm;
+  max-height:100%;
+  max-width: 100%;
+    color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+  text-decoration: bold; 
+ padding-left:12mm;
+  font-size: 18px; 
+white-space: nowrap;
+}
+.Other:hover
+
+  {
+  color:rgb(255, 255, 255);
+border: 3px solid whitesmoke;
+border-radius: 5px;
+  font-size: 22px;
+   
+}
+
+
+.Riflecontent 
+{
+  padding-top: 6cm;
+  color:white; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+text-display: inline; 
+}
+#R1
+{
+  font-size: 60px;
+  color:white; 
+  font-family: Impact; 
+}
+
+.G3
+{
+  padding-bottom: 10mm;
+  
+}
+
+  
+
+
+  
+
+
+ 
