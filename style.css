@@ -1,9 +1,13 @@
+
+/*Css for background and body*/
+
 body 
 {
-background-image: linear-gradient( black ,rgba(145, 145, 145, 0.74) , white);  
+background-image: linear-gradient( black ,rgba(145, 145, 145, 0.74) , grey);  
 background-size: cover;
 background-attachment: fixed;
-background-repeat: no-repeat; 
+background-repeat: no-repeat;
+display: center; 
  
 }
 
@@ -13,13 +17,16 @@ background-repeat: no-repeat;
   
    display: block;
    margin: auto;
-   max-width: 100%;
+   max-width: 100%; 
    padding-top: 100px;
-  
-   
+   display: center;
+
  }
 
+ 
+/* codeing nav bar*/
 nav {
+ 
   padding-top: .9cm;
   padding-bottom: .9cm;
   text-align: center;
@@ -27,13 +34,24 @@ nav {
   max-width: 100%;
   max-height: 100%; 
    background-image: radial-gradient(rgb(0, 0, 0), rgba(145, 145, 145, 0.74));
-
 border-radius: 15px; 
+font-family: Arial, Helvetica, sans-serif;
+background-position: center;
 
 
 }
 
-.Rifle
+ul {
+  text-align: center;
+
+}
+
+li {
+  display:inline;
+}
+
+
+nav a 
 {
 
   display: inline;
@@ -41,111 +59,52 @@ border-radius: 15px;
   max-width: 100%;
   max-height:100%;
   color: whitesmoke; 
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: bold; 
+  font-family: Archivo Black, sans-serif;
+  text-decoration: none; 
   padding-left:12mm;
-  font-size: 18px; 
+  font-size: 20px; 
   text-align: center; 
   white-space: nowrap;
- 
+  transition-duration: 0.5s;
+
 }
-.Rifle:hover
+nav a:hover
 {
   color:rgb(255, 255, 255);
 border: 3px solid whitesmoke;
 border-radius: 5px;
   font-size: 22px;   
-  
-}
+ transition-duration: 0.5s; 
+  text-decoration: bold;
+  text-shadow:1px 1px 10px red;
+  box-shadow: 1px 1px 500px red;
 
-.Pistols {
-  display: inline;
-  padding-right: 12mm;
-  max-width: 100%;
-  max-height:100%;
-    color: whitesmoke; 
-    font-family: Arial, Helvetica, sans-serif;
-  text-decoration: bold; 
- 
-  padding-left:12mm;
-   font-size: 18px; 
-   white-space: nowrap;
+} 
 
+/* css for content */
 
-}
-.Pistols:hover
-{
-  color:rgb(255, 255, 255);
-  border: 3px solid whitesmoke;
-border-radius: 5px;
-  font-size: 22px; 
-}
-.SMG
-{
-  display: inline;
-  padding-right: 12mm;
-  max-width: 100%;
-max-height:100%;
-  color: whitesmoke; 
-font-family: Arial, Helvetica, sans-serif;
-  text-decoration: bold; 
-  white-space: nowrap;
- 
- padding-left:12mm;
-  font-size: 18px; 
-}
-.SMG:hover
-{
-  color:rgb(255, 255, 255);
- border: 3px solid whitesmoke;
-border-radius: 5px;
-  font-size: 22px; 
-}
-.Other 
-{
-  display: inline;
-  padding-right: 12mm;
-  max-height:100%;
-  max-width: 100%;
-    color: whitesmoke; 
-    font-family: Arial, Helvetica, sans-serif;
-  text-decoration: bold; 
- padding-left:12mm;
-  font-size: 18px; 
-white-space: nowrap;
-}
-.Other:hover
-
-  {
-  color:rgb(255, 255, 255);
-border: 3px solid whitesmoke;
-border-radius: 5px;
-  font-size: 22px;
-   
-}
-
-
-.Riflecontent 
+.content 
 {
   padding-top: 6cm;
   color:white; 
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 text-display: inline; 
+color:white; 
+  font-family: Impact; 
 }
-#R1
+.content h1
 {
   font-size: 60px;
   color:white; 
   font-family: Impact; 
 }
-
-.G3
+.content p
 {
-  padding-bottom: 10mm;
-  
+  font-size: 13px;
+  font-family:  'Open Sans', sans-serif;
+  text-decoration: bold;  
 }
 
-  
 
 
   
