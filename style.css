@@ -77,7 +77,7 @@ border-radius: 5px;
  transition-duration: 0.5s; 
   text-decoration: bold;
   text-shadow:1px 1px 10px red;
-  box-shadow: 1px 1px 500px red;
+  box-shadow: 1px 1px 100px red;
 
 } 
 
