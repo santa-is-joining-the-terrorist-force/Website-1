@@ -103,11 +103,19 @@ color:white;
   font-size: 13px;
   font-family:  'Open Sans', sans-serif;
   text-decoration: bold;  
+  
+ 
 }
 
 
-
+#G11
+{
   
-
-
+clear: right;
+float: right;
+margin-left: 20px  ;
+margin-bottom:10ch;
  
+
+}
+
