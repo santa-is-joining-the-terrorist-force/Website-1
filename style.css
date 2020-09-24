@@ -18,8 +18,9 @@ display: center;
    display: block;
    margin: auto;
    max-width: 100%; 
-   padding-top: 100px;
+   padding-top: 200px;
    display: center;
+   padding-bottom: 300px ; 
 
  }
 
@@ -91,6 +92,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-display: inline; 
 color:white; 
   font-family: Impact; 
+  
 }
 .content h1
 {
@@ -100,8 +102,8 @@ color:white;
 }
 .content p
 {
-  font-size: 13px;
-  font-family:  'Open Sans', sans-serif;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: bold;  
   
  
@@ -111,11 +113,36 @@ color:white;
 #G11
 {
   
-clear: right;
+clear: ;
 float: right;
 margin-left: 20px  ;
 margin-bottom:10ch;
+
  
 
+}
+
+.Riflesgif
+{
+ clear: left;
+  float: right;
+  margin-left: 20px  ;
+margin-bottom:5ch;
+  
+}
+h3 {
+  padding-top: 50px;
+  font-size: 25px;
+  clear: right;
+
+}
+
+#G3_Bolt
+{
+  background-image: linear-gradient(black, white , black, white,black );
+  clear: left;
+  float: right;
+  margin-left: 100%  ;
+margin-bottom:5ch;
 }
 
